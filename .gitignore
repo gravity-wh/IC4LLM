@@ -1,0 +1,29 @@
+# Vivado project files
+vivado_project/
+*.jou
+*.log
+*.rpt
+*.dcp
+*.bit
+*.ltx
+*.xpr
+.Xil/
+
+# Simulation files
+sim/
+*.vcd
+*.vvp
+*.wdb
+*.pb
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.o
+*.a
+*.so
+
