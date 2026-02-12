@@ -71,6 +71,9 @@
 
 ### 测试平台
 ✅ tb_mac_unit.v - MAC单元功能验证
+✅ tb_systolic_array.v - 脉动阵列矩阵乘法测试
+✅ tb_softmax_unit.v - Softmax归一化测试
+✅ tb_attention_core.v - 注意力机制端到端测试
 ✅ tb_llm_accelerator_top.v - 系统级测试
 
 ### 仿真支持
@@ -158,9 +161,12 @@
 ### 功能验证
 - [x] 定点数运算正确性
 - [x] MAC单元点积计算
+- [x] 脉动阵列矩阵乘法
+- [x] Softmax归一化计算
+- [x] 注意力机制端到端
 - [x] AXI4-Lite读写
 - [x] 状态机转换
-- [ ] 端到端数据流（待完善）
+- [x] 端到端数据流验证
 
 ### 时序验证
 - [x] 时序约束定义
